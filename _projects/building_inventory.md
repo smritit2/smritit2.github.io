@@ -29,7 +29,7 @@ This scatter plot explores the relationship between building age and square foot
 
 -- The visualization uses quantitative encoding for both axes. Building Age on the x-axis and Square Footage on the y-axis with a logarithmic scale. The log scale was essential given the extreme range in building sizes—from small 20 square foot structures to facilities exceeding 200,000 square feet. Without the log transformation, smaller buildings would be compressed at the bottom of the chart, making patterns impossible to discern.
 
--- Color encoding distinguishes the nine agencies using a nominal categorical scale. I selected Altair's default categorical color scheme because it provides sufficient contrast to differentiate between agencies while remaining visually accessible. The agencies chosen for this visualization represent diverse state functions: universities (University of Illinois, Southern Illinois University, Illinois State University), public services (Department of Human Services, Department of Juvenile Justice, Department of State Police), and specialized agencies (Historic Preservation Agency, Department of Agriculture, Department of Military Affairs).
+-- Color encoding distinguishes the nine agencies using a nominal categorical scale. I selected Altair's default categorical color scheme because it provides sufficient contrast to differentiate between agencies while remaining visually accessible. The agencies chosen for this visualization represent universities (University of Illinois, Southern Illinois University, Illinois State University).
 
 Each data point is rendered as a circle mark with tooltips providing detailed information including building name, location, usage type, and status, enabling deep exploration of individual facilities.
 
